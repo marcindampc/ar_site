@@ -1,24 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import './styles/variables.scss'; */
-/* @import url('./styles/variables.scss'); */
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: $brand-dark-green;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 32, 106, 93;
+  --background-start-rgb: 32, 106, 93;
+  --background-end-rgb: 248, 180, 0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 32, 106, 93;
+    --background-end-rgb: 248, 180, 0;
   }
 }
 
 body {
+  height: 100vh;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
