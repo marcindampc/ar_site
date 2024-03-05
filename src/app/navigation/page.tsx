@@ -5,7 +5,7 @@ export default function Nav() {
     return (
         <div className="nav_container">
             <a>
-                <img src='./ar_logo_color_nobg.svg'></img>
+                <img className='nav_logo' src='./ar_logo_color_nobg.svg'></img>
             </a>
             <ul className="nav_links">
                 <Link href='/' className="nav_item">Home</Link>

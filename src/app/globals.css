@@ -15,9 +15,11 @@
     --background-end-rgb: 248, 180, 0;
   }
 }
-
+html, body {
+  height: 100%;
+}
 body {
-  height: 100vh;
+  /* height: 100%; */
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
