@@ -9,17 +9,17 @@ export const metadata: Metadata = {
   title: "Architekt Rodziny",
   description: "blog osobisty o rodzinie, małżeństwie i macierzyństwie",
   generator: 'Next.js',
-  applicationName: 'ARapp',
+  applicationName: 'Architekt Rodziny',
   referrer: 'origin-when-cross-origin',
-  keywords: ['Next.js', 'React', 'JavaScript'],
-  authors: [{ name: 'Seb' }, { name: 'Josh', url: 'https://nextjs.org' }],
-  creator: 'Jiachi Liu',
-  publisher: 'Sebastian Markbåge',
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
+  keywords: ['rodzina', 'macierzyństwo'],
+  // authors: [{ name: '' }, { name: '', url: '' }],
+  // creator: '',
+  // publisher: '',
+  // formatDetection: {
+  //   email: false,
+  //   address: false,
+  //   telephone: false,
+  // },
 
 };
 
