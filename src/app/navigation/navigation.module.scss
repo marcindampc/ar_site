@@ -1,0 +1,31 @@
+.links {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.container {
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+        width: 150px;
+        height: 150px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 2;
+    max-width: 30%;
+}
+
+.item {
+    min-width: 100px;
+}
