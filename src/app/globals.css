@@ -27,6 +27,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 @layer utilities {

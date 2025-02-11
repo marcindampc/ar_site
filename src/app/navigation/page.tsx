@@ -14,7 +14,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link href="/poradniki" className={styles.item}>
+          <Link href="/tips" className={styles.item}>
             Poradniki
           </Link>
         </li>
